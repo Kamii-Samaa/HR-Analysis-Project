@@ -4,7 +4,7 @@ This project focuses on analyzing HR data to understand and predict employee att
 
 ## Files
 
-- `hr_analysis.py`: Python script for HR analysis.
+- `hr-analysis-streamlit.py`: Streamlit app built to show visualization.
 - `HR-Employee-Attrition.csv`: Dataset containing HR data.
 - `HR_Analysis.ipynb`: Jupyter Notebook for interactive analysis (optional).
 - `hr_analysis.py`: Script for easier execution.
@@ -44,16 +44,10 @@ my_python_project/
 ## Steps Involved
 
 1. **Data Cleaning**:
-   - The script starts by cleaning the dataset, handling missing values, and ensuring data consistency.
+   - The script starts by cleaning the dataset, renaming columns to allow for easier readability, and ensuring data consistency.
 
 2. **Data Visualization**:
    - Visualizations are created to understand the distribution and relationships within the data.
-
-3. **Model Building**:
-   - A predictive model is built to identify factors contributing to employee attrition.
-
-4. **Attrition Prediction**:
-   - The model is used to predict employee attrition based on the cleaned and visualized data.
 
 ## Requirements
 
